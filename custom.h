@@ -7,4 +7,7 @@ namespace custom {
 
     template <typename T> 
     class Vector;
+
+    template <typename T>
+    class Heap;
 };

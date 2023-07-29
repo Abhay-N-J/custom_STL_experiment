@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     s.pop_back();
     s.pop_back();
     std::cout << s;
-    char *a = s3.substr(1, 1) ;
+    char *a = s3.substr(1, 4) ;
     std::cout << a << '\n';
     delete[] a;
     std::cout << s3[2] << '\n';

@@ -1,5 +1,4 @@
 #include "Vector.h"
-#include "Heap.h"
 
 int main(int argc, char const *argv[])
 {
@@ -47,8 +46,8 @@ int main(int argc, char const *argv[])
     // std::cout << arr;
     custom::Vector<int> array = {123,11,3,45,6,77,8};
     std::cout<< array;
-    custom::make_heap(array.begin(), array.end());
-    custom::sort_heap(array.begin(), array.end());
-    std::cout<< array;
+    // custom::make_heap(array.begin(), array.end());
+    // custom::sort_heap(array.begin(), array.end());
+    // std::cout<< array;
     return 0;
 }
