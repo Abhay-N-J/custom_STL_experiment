@@ -38,6 +38,9 @@ int main(int argc, char const *argv[])
     s3.clear();
     
     std::cout << s3;
+    custom::String inputStr;
+    std::cin >> inputStr;
+    std::cout << inputStr;
 
     return 0;
 }
